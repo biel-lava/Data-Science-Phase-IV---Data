@@ -1,0 +1,11 @@
+,ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual
+0,E19E6F1B8D4C42ED,electric_bike,23/01/2021 16:14,23/01/2021 16:24,California Ave & Cortez St,17660,,,41.90034067,-87.696743,41.89,-87.72,member
+1,DC88F20C2C55F27F,electric_bike,27/01/2021 18:43,27/01/2021 18:47,California Ave & Cortez St,17660,,,41.90033283,-87.696707,41.9,-87.69,member
+2,EC45C94683FE3F27,electric_bike,21/01/2021 22:35,21/01/2021 22:37,California Ave & Cortez St,17660,,,41.90031267,-87.69664267,41.9,-87.7,member
+3,4FA453A75AE377DB,electric_bike,07/01/2021 13:31,07/01/2021 13:42,California Ave & Cortez St,17660,,,41.90039867,-87.69666217,41.92,-87.69,member
+4,BE5E8EB4E7263A0B,electric_bike,23/01/2021 02:24,23/01/2021 02:24,California Ave & Cortez St,17660,,,41.90032633,-87.69669717,41.9,-87.7,casual
+5,5D8969F88C773979,electric_bike,09/01/2021 14:24,09/01/2021 15:17,California Ave & Cortez St,17660,,,41.90040867,-87.69676283,41.94,-87.71,casual
+6,09275CC10F854E9E,electric_bike,04/01/2021 05:05,04/01/2021 05:10,California Ave & Cortez St,17660,,,41.9003905,-87.69675733,41.9,-87.71,member
+7,DF7A32A217AEFB14,electric_bike,14/01/2021 15:07,14/01/2021 15:13,California Ave & Cortez St,17660,,,41.9003895,-87.69672833,41.91,-87.7,member
+8,C2EFC62379EB716C,electric_bike,09/01/2021 09:57,09/01/2021 10:00,California Ave & Cortez St,17660,,,41.90030583,-87.69679633,41.9,-87.7,member
+9,B9F73448DFBE0D45,classic_bike,24/01/2021 19:15,24/01/2021 19:22,California Ave & Cortez St,17660,Wood St & Augusta Blvd,657.0,41.900363,-87.696704,41.899181,-87.6722,member

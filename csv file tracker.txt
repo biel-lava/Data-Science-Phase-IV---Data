@@ -1,0 +1,4 @@
+trial - base csv file for practice nung paggawa nung dataframe from csv file
+trial2 - naming the columns with user specified names given na walang column names yung mismong file
+trial3 - using a column dun sa file as the row index
+trial4 - checking for null or empty cells 
