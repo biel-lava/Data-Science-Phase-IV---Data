@@ -22,5 +22,11 @@ data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV 
 
 print(data)
 
-
 #'''
+
+
+# Modifying the column names
+
+import pandas as pd
+
+data = data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial2.csv")
