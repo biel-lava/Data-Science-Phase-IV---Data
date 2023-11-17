@@ -14,8 +14,66 @@ Topics:
 
 # HANDLING MISSING DATA
 
+
+# 1.a) Identifying missing data in the dataframe
+'''
 import pandas as pd
 
 data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" , index_col= "SN")
 
 print(data.isna())
+'''
+
+# 1.b) Filtering out missing data 
+
+# dropping empty rows and columns from series/ dataframes 
+
+'''
+import pandas as pd
+
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" , index_col= "SN")
+
+#clean = data.dropna(axis='columns') # removes the columns that contains any null value and assigns it into a new object
+
+clean = data.dropna() # by default yung dropna() would drop any row na may empty value
+
+
+print(clean)
+
+'''
+
+# 1.c) Filling in missing data
+
+'''
+
+import pandas as pd
+
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" , index_col= "SN")
+
+print(data.fillna({"Amount":100, "Section":"food"}))
+
+'''
+
+
+# DATA TRANSFORMATION
+
+#  
+'''
+
+import pandas as pd
+
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" , index_col= "SN")
+
+#print(data.duplicated()) # returns a boolean series that tells if a row is duplicated or not
+
+print(data.drop_duplicates()) # returns the dataframe where the duplicates are removed na
+'''
+
+
+# 2.b) Transforming data using a function or mapping 
+
+import pandas as pd
+
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" )
+
+print(data)
