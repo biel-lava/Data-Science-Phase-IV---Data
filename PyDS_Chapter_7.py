@@ -57,7 +57,8 @@ print(data.fillna({"Amount":100, "Section":"food"}))
 
 # DATA TRANSFORMATION
 
-#  
+# 2.a) Removing duplicates
+  
 '''
 
 import pandas as pd
@@ -72,8 +73,15 @@ print(data.drop_duplicates()) # returns the dataframe where the duplicates are r
 
 # 2.b) Transforming data using a function or mapping 
 
+#'''
 import pandas as pd
 
-data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial4.csv" )
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial3.csv" )
+labels = {"food":"Yes", "transpo":"Yes", "pet":"Yes", "church":"No"}
+
+data["Priority"] = data["Section"].map(labels)
 
 print(data)
+
+#'''
+
