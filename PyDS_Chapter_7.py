@@ -84,6 +84,6 @@ data["Priority"] = data["Section"].map(labels) # map method creates a new column
 print(data)
 
 '''
-
+cc
 # 2.c) Replacing values
 
