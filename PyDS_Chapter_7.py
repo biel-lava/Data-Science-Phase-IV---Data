@@ -73,15 +73,17 @@ print(data.drop_duplicates()) # returns the dataframe where the duplicates are r
 
 # 2.b) Transforming data using a function or mapping 
 
-#'''
+'''
 import pandas as pd
 
 data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial3.csv" )
 labels = {"food":"Yes", "transpo":"Yes", "pet":"Yes", "church":"No"}
 
-data["Priority"] = data["Section"].map(labels)
+data["Priority"] = data["Section"].map(labels) # map method creates a new column where yung basis ay yung "section" column then yung imamap ay yung values na nasa labels dictionaru
 
 print(data)
 
-#'''
+'''
+
+# 2.c) Replacing values
 
