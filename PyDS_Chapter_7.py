@@ -84,6 +84,16 @@ data["Priority"] = data["Section"].map(labels) # map method creates a new column
 print(data)
 
 '''
-cc
+
 # 2.c) Replacing values
 
+#'''
+import pandas as pd
+
+data = pd.read_csv("D:\Documents\Operation UPSKILL\Python\Data Science Phase IV - Data/trial3.csv" )
+
+updated_data = data.replace("church", "waste") # using the replace method creates a new object
+
+print(updated_data)
+
+#'''
